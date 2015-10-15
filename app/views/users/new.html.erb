@@ -1,0 +1,30 @@
+<div class="conatiner">
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      
+      <%= image_tag "Shots_Remix.jpg" %>
+
+
+<%= form_for @user, :html => { :multipart => true } do |f| %>
+
+  <div class="enter-email">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <div class="form-group">
+          <%= f.text_field :email, class: 'form-control', placeholder: "Your Email" %>
+        </div>
+
+
+        <div class="form-group">
+          <%= f.submit "Download Link", class: "btn btn-shots" %>
+        </div>
+        
+      </div>
+    </div>
+  </div><!-- enter email -->
+
+<% end %>
+      
+    </div>
+  </div>
+</div>

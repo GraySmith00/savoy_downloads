@@ -1,0 +1,20 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  background: black;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.enter-email {
+  padding-top: 30px;
+}
+
+.btn-shots {
+  background: #3e7799;
+  text-decoration: none;
+  color: white;
+}
