@@ -1,9 +1,36 @@
 <div class="conatiner">
+  
+  <ul class="countdown text-center">
+        <li>
+            <span class="days">00</span>
+            <p class="days_ref">days</p>
+        </li>
+        
+        <li>
+            <span class="hours">00</span>
+            <p class="hours_ref">hours</p>
+        </li>
+        
+        <li>
+            <span class="minutes">00</span>
+            <p class="minutes_ref">minutes</p>
+        </li>
+        
+        <li>
+            <span class="seconds">00</span>
+            <p class="seconds_ref">seconds</p>
+        </li>
+    </ul>
+  
+  <br/>
+  
   <div class="row">
     <div class="col-sm-6 col-sm-offset-3">
       
-      <img src="http://i1293.photobucket.com/albums/b596/wlkngmachine/Shots%20Remix_zpsflfbypyb.jpg" border="0" alt=" photo Shots Remix_zpsflfbypyb.jpg"/>
+      
+      <img src="http://i1293.photobucket.com/albums/b596/wlkngmachine/countdown%20clock%20mask_zpsio8akfqg.jpg" border="0" alt=" photo countdown clock mask_zpsio8akfqg.jpg" height="400" width="400"/>
 
+      <h3>Enter the gate and receive hidden treasures</h3>
 
 <%= form_for @user, :html => { :multipart => true } do |f| %>
 
@@ -11,12 +38,12 @@
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3">
         <div class="form-group">
-          <%= f.text_field :email, class: 'form-control', placeholder: "Your Email" %>
+          <%= f.text_field :email, class: 'savoy-form', placeholder: "Email" %>
         </div>
 
 
         <div class="form-group">
-          <%= f.submit "Download Link", class: "btn btn-shots" %>
+          <%= f.submit "Enter", class: "savoy-btn" %>
         </div>
         
       </div>

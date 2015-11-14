@@ -1,12 +1,54 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html { 
+  
+}
+
+
+
 body {
-  background: black;
+  background: url(http://i1293.photobucket.com/albums/b596/wlkngmachine/imageedit_2_8766037113_zpswk0m1ufl.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: white;
   margin-top: 30px;
   text-align: center;
   text-decoration: none;
+}
+
+
+
+::-webkit-input-placeholder {
+ font-size: 16px;
+ color: white;
+ text-transform: uppercase;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: bold;
+}
+:-moz-placeholder { /* older Firefox*/
+ font-size:16px;
+ color: white;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: bold;
+}
+::-moz-placeholder { /* Firefox 19+ */ 
+ font-size: 16px;
+ color: white; 
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: bold;
+} 
+:-ms-input-placeholder { 
+ font-size: 16px; 
+ color: white;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: bold;
 }
 
 .enter-email {
@@ -18,3 +60,123 @@ body {
   text-decoration: none;
   color: white;
 }
+
+@font-face {
+  font-family: 'Arcade';
+  src:url('Arcade.eot');
+  src:url('Arcade.eot?#iefix') format('embedded-opentype'),
+    url('Arcade.svg#icomoon') format('svg'),
+    url('Arcade.woff') format('woff'),
+    url('Arcade.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h3 {
+  font-family: Arcade;
+  font-size: 24px;
+}
+
+.savoy-form {
+  border: 2px solid #fa1620;
+  background: black;
+  font-family: Arcade;
+  color: white;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+}
+
+/* BUTTONS STYLING
+======================================= */
+
+.savoy-btn {
+  background: #fa1620;
+  color: black;
+  border: none;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arcade;
+  font-size: 30px;
+  border: 3px solid black;
+}
+
+.ep-btn {
+  background: #fa1620;
+  color: black;
+  border: none;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arcade;
+  font-size: 30px;
+  float: none;
+  margin: 0 auto;
+  border: 3px solid black;
+  box-shadow:4px 7px 13px black;
+}
+
+.tour-btn {
+  background: #fa1620;
+  color: black;
+  border: none;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arcade;
+  font-size: 30px;
+  float: none;
+  margin: 0 auto;
+  border: 3px solid black;
+  box-shadow:4px 7px 13px black;
+}
+
+/* COUNTDOWN STYLING 
+=================================== */
+
+ul.countdown {
+  list-style: none;
+  display: block;
+  margin-bottom: 0;
+  padding: 1.5em 0 0;
+}
+
+ul.countdown li p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Arcade;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+ul.countdown li{
+  display: inline-block;
+  padding-right: 100px;
+}
+
+ul.countdown li:last-child{
+  display: inline-block;
+  padding-right: 0;
+}
+
+ul.countdown li span{
+  font-size: 35px;
+  font-family: Arcade;
+  font-weight: 700px;
+  color: #fff;
+}
+
+/* MEDIA QUERIES
+================================== */
+
+@media(max-width:530px){
+  ul.countdown li{
+  padding-right: 40px;
+}
+}
+
