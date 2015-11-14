@@ -159,6 +159,7 @@ ul.countdown li{
   padding-right: 100px;
 }
 
+
 ul.countdown li:last-child{
   display: inline-block;
   padding-right: 0;
@@ -170,6 +171,47 @@ ul.countdown li span{
   font-weight: 700px;
   color: #fff;
 }
+
+
+/* 2nd Page Countdown 
+=======================================*/
+
+ul.clock {
+  list-style: none;
+  display: block;
+  margin-bottom: 0;
+  padding: 1.5em 0 0;
+}
+
+ul.clock li p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Arcade;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+ul.clock li{
+  display: inline-block;
+  padding-right: 30px;
+}
+
+
+ul.clock li:last-child{
+  display: inline-block;
+  padding-right: 0;
+}
+
+ul.clock li span{
+  font-size: 35px;
+  font-family: Arcade;
+  font-weight: 700px;
+  color: #fff;
+}
+
+
+
 
 /* MEDIA QUERIES
 ================================== */
