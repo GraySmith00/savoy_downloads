@@ -63,11 +63,11 @@ body {
 
 @font-face {
   font-family: 'Arcade';
-  src:url('Arcade.eot');
-  src:url('Arcade.eot?#iefix') format('embedded-opentype'),
-    url('Arcade.svg#icomoon') format('svg'),
-    url('Arcade.woff') format('woff'),
-    url('Arcade.ttf') format('truetype');
+  src:font-url('Arcade.eot');
+  src:font-url('Arcade.eot?#iefix') format('embedded-opentype'),
+    font-url('Arcade.svg#icomoon') format('svg'),
+    font-url('Arcade.woff') format('woff'),
+    font-url('Arcade.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
