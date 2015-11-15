@@ -129,7 +129,7 @@ h3 {
   color: black;
   border: none;
   height: 40px;
-  width: 300px;
+  width: 250px;
   text-align: center;
   font-weight: bold;
   font-family: Arcade;
@@ -217,7 +217,6 @@ ul.clock li span{
 
 
 
-
 /* MEDIA QUERIES
 ================================== */
 
@@ -226,4 +225,9 @@ ul.clock li span{
   padding-right: 40px;
 }
 }
+
+@media(max-width:933px){
+  
+}
+
 
