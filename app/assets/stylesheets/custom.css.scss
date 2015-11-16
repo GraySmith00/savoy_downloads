@@ -129,6 +129,16 @@ h4 {
   box-shadow:4px 7px 13px black;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+.ep-btn:hover {
+  text-decoration: none;
+  border: 3px solid #8B0000;
+  
+}
+
 .tour-btn {
   background: #fa1620;
   color: black;
